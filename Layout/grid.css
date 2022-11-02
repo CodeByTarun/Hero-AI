@@ -1,0 +1,43 @@
+body {
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+div div {
+    background-color: grey;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: span 1;
+}
+
+#A {
+    grid-column: 1 / span 2;
+}
+
+#B {
+    grid-column: 3 / span 2;
+}
+
+#C {
+    grid-column: 1 / span 1;
+}
+
+#D {
+    grid-column: 2 / span 3;
+}
+
+#E {
+    grid-column: 1 / span 4;
+}

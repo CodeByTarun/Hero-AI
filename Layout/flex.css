@@ -1,0 +1,37 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    margin: 2rem;
+}
+
+
+div div {
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+#A, #B, #C, #E {
+    flex: auto;
+}
+
+#D {
+    flex: 3;
+}
+
+
